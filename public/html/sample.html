@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+      <meta charset="utf-8">
+      <script type="text/javascript">
+        var $ = function(func){
+            if(func){
+                alert('干渉！(' + func + ')')
+            } else {
+                alert('干渉！')
+            }
+        }
+      </script>
+      <script src="../js/sample.js"></script>
+      <script type="text/javascript">
+        $(function(){
+            alert('何がでるかな');
+        })
+      </script>
+  </head>
+</html>
